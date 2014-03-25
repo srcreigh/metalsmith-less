@@ -40,6 +40,11 @@ An object that gets passed along to [`new less.Parser(options)`][less source].
 
 An object that gets passed along to [`tree.toCSS(options)`][less source].
 
+#### `consume`
+
+A boolean which defaults to false. If true, the ```.less``` source files will
+be deleted after being processed into CSS.
+
 ## Tests
 
 ```
